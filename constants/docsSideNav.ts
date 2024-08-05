@@ -1356,6 +1356,11 @@ const docsSideNav = [
             type: 'doc',
             route: '/docs/gcp-monitoring/compute-engine/logging',
             label: 'Logging',
+          },
+          {
+            type: 'doc',
+            route: '/docs/gcp-monitoring/compute-engine/tracing',
+            label: 'APM & Tracing',
           }
         ],
       },
