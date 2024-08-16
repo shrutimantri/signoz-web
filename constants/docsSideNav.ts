@@ -1379,7 +1379,12 @@ const docsSideNav = [
             type: 'doc',
             route: '/docs/gcp-monitoring/gcs/logging',
             label: 'Logging',
-          }
+          },
+          {
+            type: 'doc',
+            route: '/docs/gcp-monitoring/gcs/metrics',
+            label: 'Metrics',
+          },
         ],
       },
     ],
