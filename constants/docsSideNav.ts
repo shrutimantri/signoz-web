@@ -1318,6 +1318,11 @@ const docsSideNav = [
             route: '/docs/gcp-monitoring/bootstrapping/gce-creation',
             label: 'Creating Compute Engine',
           },
+          {
+            type: 'doc',
+            route: '/docs/gcp-monitoring/bootstrapping/cloud-sql-creation',
+            label: 'Creating Cloud SQL',
+          },
         ],
       },
       {
@@ -1385,6 +1390,19 @@ const docsSideNav = [
             route: '/docs/gcp-monitoring/gcs/metrics',
             label: 'Metrics',
           },
+        ],
+      },
+      {
+        type: 'category',
+        isExpanded: false,
+        label: 'Cloud SQL',
+        route: '/docs/gcp-monitoring/cloud-sql',
+        items: [
+          {
+            type: 'doc',
+            route: '/docs/gcp-monitoring/cloud-sql/logging',
+            label: 'Logging',
+          }
         ],
       },
     ],
